@@ -30,7 +30,7 @@ mw_installer: 'fmw_12.2.1.2.0_infrastructure.jar'
 $ ansible-playbook -i hosts weblogic-fmw-domain.yml -e ansible_python_interpreter=auto -v
 ```
 
-Access Weblogic web interface at http://192.168.56.14:7001/console using `weblogic/welcome1` credentials.
+Access Weblogic web interface at http://x.x.x.x:7001/console using `weblogic/welcome1` credentials.
 
 Playbook includes the following roles:
 - linux-wls
