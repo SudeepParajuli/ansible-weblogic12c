@@ -1,0 +1,2 @@
+weblogic ansible_ssh_host=x.x.x.x ansible_ssh_user=centos ansible_ssh_port=22
+
